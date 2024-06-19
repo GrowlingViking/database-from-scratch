@@ -1,6 +1,6 @@
 using System;
 
-namespace database_from_scratch
+namespace database_from_scratch.Core
 {
     public interface IBlockStorage
     {
@@ -22,7 +22,7 @@ namespace database_from_scratch
         /// <summary>
         /// Find a block by its id
         /// </summary>
-        IBlock Find(uint blockId);
+        IBlock Get(uint blockId);
 
         /// <summary>
         /// Allocate new block, extend the length of underlying storage
