@@ -32,8 +32,8 @@ namespace database_from_scratch.Core
             }
 
             _unitOfWork = blockSize >= 4096 ? 4096 : 128;
-            this._blockSize = blockSize;
-            this._blockHeaderSize = blockHeaderSize;
+            _blockSize = blockSize;
+            _blockHeaderSize = blockHeaderSize;
             _blockContentSize = blockSize - blockHeaderSize;
             _stream = storage ?? throw new ArgumentNullException(nameof(storage));
         }
