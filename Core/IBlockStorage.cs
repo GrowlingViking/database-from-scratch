@@ -52,7 +52,7 @@ namespace database_from_scratch.Core
         /// <summary>
         /// Read content of this block (src) into given buffer (dst)
         /// </summary>
-        void Read(byte[] dst, int dstOffeset, int srcOffset, int count);
+        void Read(byte[] dest, int destOffset, int srcOffset, int count);
 
         /// <summary>
         /// Write content of given buffer (src) into this (dst)

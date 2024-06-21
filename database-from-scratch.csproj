@@ -41,9 +41,11 @@
     <ItemGroup>
         <Compile Include="Core\Block.cs" />
         <Compile Include="Core\BlockStorage.cs" />
+        <Compile Include="Core\BufferHelper.cs" />
         <Compile Include="Core\IBlockStorage.cs" />
         <Compile Include="Core\IIndex.cs" />
         <Compile Include="Core\IRecordStorage.cs" />
+        <Compile Include="Core\LittleEndianByteOrder.cs" />
         <Compile Include="SarMission.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
