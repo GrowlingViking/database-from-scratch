@@ -46,6 +46,7 @@
         <Compile Include="Core\IIndex.cs" />
         <Compile Include="Core\IRecordStorage.cs" />
         <Compile Include="Core\LittleEndianByteOrder.cs" />
+        <Compile Include="Core\RecordStorage.cs" />
         <Compile Include="SarMission.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
