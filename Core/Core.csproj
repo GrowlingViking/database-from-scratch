@@ -39,14 +39,14 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Core\Block.cs" />
-        <Compile Include="Core\BlockStorage.cs" />
-        <Compile Include="Core\BufferHelper.cs" />
-        <Compile Include="Core\IBlockStorage.cs" />
-        <Compile Include="Core\IIndex.cs" />
-        <Compile Include="Core\IRecordStorage.cs" />
-        <Compile Include="Core\LittleEndianByteOrder.cs" />
-        <Compile Include="Core\RecordStorage.cs" />
+        <Compile Include="Block.cs" />
+        <Compile Include="BlockStorage.cs" />
+        <Compile Include="BufferHelper.cs" />
+        <Compile Include="IBlockStorage.cs" />
+        <Compile Include="IIndex.cs" />
+        <Compile Include="IRecordStorage.cs" />
+        <Compile Include="LittleEndianByteOrder.cs" />
+        <Compile Include="RecordStorage.cs" />
         <Compile Include="SarMission.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
