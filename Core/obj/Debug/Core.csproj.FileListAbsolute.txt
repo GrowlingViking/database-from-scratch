@@ -1,0 +1,6 @@
+C:\code\database-from-scratch\Core\bin\Debug\database_from_scratch.dll
+C:\code\database-from-scratch\Core\bin\Debug\database_from_scratch.pdb
+C:\code\database-from-scratch\Core\obj\Debug\Core.csproj.AssemblyReference.cache
+C:\code\database-from-scratch\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\code\database-from-scratch\Core\obj\Debug\database_from_scratch.dll
+C:\code\database-from-scratch\Core\obj\Debug\database_from_scratch.pdb
